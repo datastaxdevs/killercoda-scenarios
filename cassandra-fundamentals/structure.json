@@ -1,0 +1,12 @@
+{
+  "title": "Apache Cassandra™ Fundamentals",
+  "description": "Hands-on introduction to Apache Cassandra™ NoSQL database",
+  "items": [
+    
+    {   "path": "cql",
+        "title": "Cassandra Query Language",
+        "description": "Learn about the most essential data definition and data manipulation statements in Cassandra Query Language (CQL)" 
+    }
+    
+  ]
+}

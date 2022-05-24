@@ -1,0 +1,12 @@
+{
+  "title": "New Features in Apache Cassandra™ 4.x",
+  "description": "Learn about the exciting new features in Apache Cassandra™ 4.x",
+  "items": [
+    
+    {   "path": "virtual-tables",
+        "title": "Virtual Tables in Cassandra",
+        "description": "Learn what are virtual tables and how to use them in Cassandra" 
+    }
+    
+  ]
+}
