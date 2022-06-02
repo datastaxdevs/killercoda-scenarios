@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update
 
 /usr/share/cassandra/bin/cassandra -R
 until /usr/share/cassandra/bin/cqlsh -e "DESCRIBE KEYSPACES"

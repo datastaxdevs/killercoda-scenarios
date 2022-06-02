@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update
 
 wget https://archive.apache.org/dist/cassandra/4.0.0/apache-cassandra-4.0.0-bin.tar.gz
 

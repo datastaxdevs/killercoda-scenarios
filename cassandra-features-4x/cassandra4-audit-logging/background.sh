@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update
 
 echo "deb http://downloads.apache.org/cassandra/debian 40x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
 deb http://downloads.apache.org/cassandra/debian 40x main

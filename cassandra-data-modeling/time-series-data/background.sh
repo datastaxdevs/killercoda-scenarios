@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update
 apt install -y openjdk-11-jre-headless
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 tar -xzvf time_series_data.tar.gz

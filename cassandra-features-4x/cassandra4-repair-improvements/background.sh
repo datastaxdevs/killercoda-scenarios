@@ -1,5 +1,5 @@
 #!/bin/bash
-
+apt-get update
 
 wget https://downloads.apache.org/cassandra/4.0.0/apache-cassandra-4.0.0-bin.tar.gz
 #scp apache-cassandra-4.0.0-bin.tar.gz root@[[HOST2_IP]]:/root/

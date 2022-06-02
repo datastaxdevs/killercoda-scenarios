@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update
 apt install -y openjdk-11-jre-headless
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 wget https://archive.apache.org/dist/cassandra/4.0.0/apache-cassandra-4.0.0-bin.tar.gz
