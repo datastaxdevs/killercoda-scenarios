@@ -6,13 +6,16 @@ WHERE email = 'joe@datastax.com';
 SELECT * FROM users;
 ```{{execute}}
 
-Deleting another row from the table:
+Delete another row from the table:
+
 <details>
-  <summary>Solution</summary> 
+<summary>Solution</summary> 
+
 ```
 DELETE FROM users 
 WHERE email = 'jen@datastax.com';
 
 SELECT * FROM users;
 ```{{execute}}
+
 </details>

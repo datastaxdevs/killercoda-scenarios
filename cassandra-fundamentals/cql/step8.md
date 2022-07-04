@@ -7,12 +7,15 @@ SELECT * FROM users;
 ```{{execute}}
 
 Update another row in the table:
+
 <details>
-  <summary>Solution</summary> 
+<summary>Solution</summary> 
+
 ```
 UPDATE users SET name = 'Jennifer' 
 WHERE email = 'jen@datastax.com';
 
 SELECT * FROM users;
 ```{{execute}}
+
 </details>
