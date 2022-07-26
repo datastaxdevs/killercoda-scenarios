@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get update
+apt-get install -y pip
 
 pip install dse-driver==2.11.1
 
@@ -11,4 +11,4 @@ curl https://downloads.apache.org/cassandra/KEYS | sudo apt-key add -
 
 sudo apt-get update
 
-sudo apt-get install cassandra
+sudo apt-get install -y cassandra
