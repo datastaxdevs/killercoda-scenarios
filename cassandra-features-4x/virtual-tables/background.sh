@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y pip
+sudo apt-get install -y pip
 
 pip install dse-driver==2.11.1
 
